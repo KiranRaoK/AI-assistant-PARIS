@@ -9,7 +9,7 @@ from selenium import webdriver
 import datetime
 import random
 from playsound import playsound
-
+#to use reminder feature create a file named reminder.txt in the file directortor Paris
 engine = pyttsx3.init('sapi5')       
 voices = engine.getProperty('voices')   
 engine.setProperty('voice', voices[1].id)
